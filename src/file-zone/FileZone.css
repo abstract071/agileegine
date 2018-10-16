@@ -1,0 +1,31 @@
+#file-zone {
+    background-color:#f1f0f0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+#file {
+    width: 600px;
+    flex-grow: 1;
+    background-color: #fff;
+    border: 1px solid #e4dede;
+    padding: 5px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#file .text .bold {
+    font-weight: bold;
+}
+
+#file .text .italic {
+    font-style: italic;
+}
+
+#file .text .underscored {
+    text-decoration: underline;
+}

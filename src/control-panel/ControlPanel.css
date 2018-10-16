@@ -1,0 +1,23 @@
+#control-panel {
+    background-color: #fff;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+#control-panel button {
+    border: 1px solid black;
+    outline: none;
+    margin-right: 10px;
+}
+
+#control-panel .active {
+    border-color: red;
+}
+
+#format-actions {
+    width: 200px;
+    margin-right: 400px;
+}
